@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Каменните животни на София</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+    #map {
+        position: fixed;
+        width: 50%;
+    }
+    #features {
+        width: 50%;
+        margin-left: 50%;
+        font-family: sans-serif;
+        overflow-y: scroll;
+        background-color: #fafafa;
+    }
+    section {
+        padding: 25px 50px;
+        line-height: 25px;
+        border-bottom: 1px solid #ddd;
+        opacity: 0.25;
+        font-size: 13px;
+    }
+    section.active {
+        opacity: 1;
+    }
+    section:last-child {
+        border-bottom: none;
+        margin-bottom: 200px;
+    }
+</style>
+
+<div id="map"></div>
+<div id="features">
+	<section id="first" class="active">
+        <h3>Каменните животни на София</h3>
+		<img src="https://images.squarespace-cdn.com/content/v1/5640a377e4b05d0d17144c30/1595019963205-HAGYEENRRGY2ZNINDOU7/ke17ZwdGBToddI8pDm48kLW4TxpwsXa6p3Ez-HndboQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2srOoadyjP5TaQMjxfgB4rkdMOftVdEwImjo6h-G8N7-7FTzBT86m3DGkzg7VrlC/Animals_all.jpg?format=750w" width="500">
+        <p>
+            В градинките и парковете на София често може да срещнете скулптури на животни, които много от нас помнят от своето детство, но на които се радват и нашите деца!
+        </p>
+	</section>
+    <section id="kn">
+        <h3>Княжеската градина</h3>
+		<img src="https://images.squarespace-cdn.com/content/v1/5640a377e4b05d0d17144c30/1561928718707-1OH2TJMAVUAKHCITGQ0J/ke17ZwdGBToddI8pDm48kLW4TxpwsXa6p3Ez-HndboQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc2srOoadyjP5TaQMjxfgB4rkdMOftVdEwImjo6h-G8N7-7FTzBT86m3DGkzg7VrlC/horiz+bw_0010_P4254771.JPG.jpg?format=750w" width="500">
+        <p>
+           Бившето място на столичния Зоопарк
+        </p>
+    </section>
+    <section id="zaimov">
+        <h3>Парк Заимов</h3>
+		<img src="https://images.squarespace-cdn.com/content/v1/5640a377e4b05d0d17144c30/1585000065300-KIOIA08ZQ183I08WNCJU/ke17ZwdGBToddI8pDm48kBMzKFNdcwnQ9Q98GmoHnZQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8PaoYXhp6HxIwZIk7-Mi3Tsic-L2IOPH3Dwrhl-Ne3Z288e2Jc3yo_Hbpo_w8c8lCi9zjlRypqeE0xMd0MPDY6GkL3r1G49e-3ZnDLNRdB_t/Untitled1_0003_P2120136.JPG.jpg?format=750w" width="500">
+        <p>
+            Преди време съвсем случайно се оказахме с малката ми дъщеря в парка “Заимов”.  И двете бяхме очаровани от старите скулптури на животни. Посрещна ни голямата костенурка в пясъчника точно срещу театър “София”. Продължихме към детската площадка, където лично мен най-много ме впечатли каменната пързалка - крокодил.
+        </p>
+    </section>
+    <section id="maichin">
+        <h3>Градината "Майчин дом"</h3>
+        <p>
+            Holmes and Watson's investigations take them across London. Sherlock
+            deduces that West was murdered elsewhere, then moved to Aldgate
+            Station to create the illusion that he was crushed on the tracks by
+            a train. On their way to Woolwich Sherlock dispatches a telegram to
+            Mycroft at London Bridge: "Send list of all foreign spies known to
+            be in England, with full address."
+        </p>
+    </section>
+    <section id="iskra">
+        <h3>ЖК Лев Толстой</h3>
+        <p>
+            Междублоково пространство
+        </p>
+    </section>
+    <section id="gloucester">
+        <h3>Gloucester Road</h3>
+        <p>
+            Mycroft responds to Sherlock's telegram and mentions several spies.
+            Hugo Oberstein of 13 Caulfield Gardens catches Sherlock's eye. He
+            heads to the nearby Gloucester Road station to investigate and
+            learns that the windows of Caulfield Gardens open over rail tracks
+            where trains stop frequently.
+        </p>
+    </section>
+    <section id="caulfield-gardens">
+        <h3>13 Caulfield Gardens</h3>
+        <p>
+            Holmes deduces that the murderer placed West atop a stopped train at
+            Caulfield Gardens. The train traveled to Aldgate Station before
+            West's body finally toppled off. Backtracking to the criminal's
+            apartment, Holmes finds a series of classified ads from
+            <em>The Daily Telegraph</em> stashed away. All are under the name
+            Pierrot: "Monday night after nine. Two taps. Only ourselves. Do not
+            be so suspicious. Payment in hard cash when goods delivered."
+        </p>
+    </section>
+    <section id="telegraph">
+        <h3>The Daily Telegraph</h3>
+        <p>
+            Holmes and Watson head to The Daily Telegraph and place an ad to
+            draw out the criminal. It reads: "To-night. Same hour. Same place.
+            Two taps. Most vitally important. Your own safety at stake.
+            Pierrot." The trap works and Holmes catches the criminal: Colonel
+            Valentine Walter, the brother of Woolwich Arsenal's chief. He
+            confesses to working for Hugo Oberstein to obtain the submarine
+            plans in order to pay off his debts.
+        </p>
+    </section>
+    <section id="charing-cross">
+        <h3>Charing Cross Hotel</h3>
+        <p>
+            Walter writes to Oberstein and convinces him to meet in the smoking
+            room of the Charing Cross Hotel where he promises additional plans
+            for the submarine in exchange for money. The plan works and Holmes
+            and Watson catch both criminals.
+        </p>
+        <small id="citation">
+            Adapted from
+            <a href="http://www.gutenberg.org/files/2346/2346-h/2346-h.htm"
+                >Project Gutenberg</a
+            >
+        </small>
+    </section>
+</div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZXNoaXJpbnlhbiIsImEiOiJmMzUxNDdkMWFjNTQ0ZTZiMDUyZmMwNWIwNjMwMmJlNyJ9.SML9WjW66aMhZ95JNaqFeQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/eshirinyan/ckd22y3dz2ks11io3wdq5knnn',
+        center: [23.30565, 42.68947],
+        zoom: 12,
+        bearing: 0,
+        pitch: 0
+    });
+
+    var chapters = {
+		'first': {
+            center: [23.30565, 42.68947],
+			zoom: 13,
+			bearing: 0,
+			pitch: 0
+        },
+        'kn': {
+            bearing: 0,
+            center: [23.33349, 42.68995],
+            zoom: 17,
+            pitch: 0
+        },
+        'zaimov': {
+            center: [23.34306, 42.69775],
+            bearing: 0,
+            zoom: 17,
+            pitch: 0
+        },
+        'maichin': {
+            bearing: 0,
+            center: [23.31761, 42.70891],
+            zoom: 17,
+            speed: 0.6,
+            pitch: 0
+        },
+        'iskra': {
+            bearing: 0,
+            center: [23.31255, 42.73019],
+            zoom: 17
+        },
+        'gloucester': {
+            bearing: 45,
+            center: [-0.18335806, 51.49439521],
+            zoom: 15.3,
+            pitch: 20,
+            speed: 0.5
+        },
+        'caulfield-gardens': {
+            bearing: 180,
+            center: [-0.19684993, 51.5033856],
+            zoom: 12.3
+        },
+        'telegraph': {
+            bearing: 90,
+            center: [-0.10669358, 51.51433123],
+            zoom: 17.3,
+            pitch: 40
+        },
+        'charing-cross': {
+            bearing: 90,
+            center: [-0.12416858, 51.50779757],
+            zoom: 14.3,
+            pitch: 20
+        }
+    };
+
+    // On every scroll event, check which element is on screen
+    window.onscroll = function() {
+        var chapterNames = Object.keys(chapters);
+        for (var i = 0; i < chapterNames.length; i++) {
+            var chapterName = chapterNames[i];
+            if (isElementOnScreen(chapterName)) {
+                setActiveChapter(chapterName);
+                break;
+            }
+        }
+    };
+
+    var activeChapterName = 'baker';
+    function setActiveChapter(chapterName) {
+        if (chapterName === activeChapterName) return;
+
+        map.flyTo(chapters[chapterName]);
+
+        document.getElementById(chapterName).setAttribute('class', 'active');
+        document.getElementById(activeChapterName).setAttribute('class', '');
+
+        activeChapterName = chapterName;
+    }
+
+    function isElementOnScreen(id) {
+        var element = document.getElementById(id);
+        var bounds = element.getBoundingClientRect();
+        return bounds.top < window.innerHeight && bounds.bottom > 0;
+    }
+	map.addControl(new mapboxgl.NavigationControl());
+</script>
+
+</body>
+</html>
