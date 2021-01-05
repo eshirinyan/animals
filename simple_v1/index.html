@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Fly to a location</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; font-family:Arial;}
+	#map { position: absolute; top:120px; bottom: 0; width: 100%; }
+	
+</style>
+</head>
+<body>
+<style>
+
+
+#main-header {
+	
+	color:#1E90FF;
+	font-size:32px;
+	padding:20px;
+
+}
+
+
+
+.container {
+	width:80%;
+	margin: auto;
+}
+#navbar {
+	margin: auto;
+	position:relative;
+	color: #1E90FF;
+	background: #fff;
+}
+
+
+
+#navbar ul {
+	list-style:none;
+	padding:15px;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	color:#1E90FF;
+	padding:15px;
+	font-size:16px;
+	text-decoration:none;
+}
+#navbar a:hover{
+	background-color: #1E90FF;
+	color:#fff;
+	cursor: pointer;
+}
+
+#fixed {
+	position:fixed;
+
+	top:90vh;
+	margin:auto;
+	background-color:#fff;
+	color:#1E90FF;
+	font-size:12px;
+	padding:20px;
+}
+
+
+</style>
+
+
+<div id="map"></div>
+
+<nav id="navbar">
+	<div class="container">
+		<div id="main-header">Каменните животни на София</div>
+		<ul>
+		  <li><a id="kn" href='#'>Княжеска градина</a></li>
+		  <li><a id="zaimov" href='#'>Парк Заимов</a></li>
+		  <li><a id="maichin" href='#'>Градина Майчин дом</a></li>
+		  <li><a id="iskra" href='#'>ЖК Лев Толстой</a></li>
+		  <li><a id="fondovi" href='#'>Фондови жилища</a></li>
+		  <li><a id="yu1" href='#'>Южен парк 1</a></li>
+		  <li><a id="yu2" href='#'>Южен парк 2</a></li>
+		  <li><a id="tin" href='#'>Градина Тинтява</a></li>
+		  <li><a id="mus" href='#'>Мусагеница</a></li>
+		  <li><a id="vl" href='#'>Васил Левски</a></li>
+		</ul>
+	</div>
+</nav>
+
+<!--  -->
+<div class="container">
+	<footer id="fixed">&copy; Urban Souvenir</footer>
+</div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZXNoaXJpbnlhbiIsImEiOiJmMzUxNDdkMWFjNTQ0ZTZiMDUyZmMwNWIwNjMwMmJlNyJ9.SML9WjW66aMhZ95JNaqFeQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/eshirinyan/ckd22y3dz2ks11io3wdq5knnn',
+        center: [23.30565, 42.68947],
+		zoom: 11.00,
+		pitch: 0.00,
+		bearing: 0.00
+    });
+	
+	var places = {
+	'kn':[23.33349, 42.68995],
+	'zaimov':[23.34306, 42.69775],
+	'maichin':[23.31761, 42.70891],
+	'iskra':[23.31255, 42.73019],
+	'fondovi':[23.30002, 42.71296],
+	'yu1':[23.30547, 42.67233],
+	'yu2':[23.30754, 42.66178],
+	'tin':[23.35473, 42.66685],
+	'mus':[23.36434, 42.66191],
+	'vl':[23.38526, 42.70049]
+	}
+	
+
+	document.getElementById('kn').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.33349, 42.68995
+		],
+		zoom: 17,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('zaimov').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.34306, 42.69775
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('maichin').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.31761, 42.70891
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	document.getElementById('iskra').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.31255, 42.73019
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	document.getElementById('fondovi').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.30002, 42.71296
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('yu1').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.30547, 42.67233
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('yu2').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.30754, 42.66178
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('tin').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.35473, 42.66685
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('mus').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.36434, 42.66191
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	document.getElementById('vl').addEventListener('click', function () {
+
+		map.flyTo({
+		center: [
+		23.38526, 42.70049
+		],
+		zoom: 18,
+		pitch: 0.00,
+		bearing: 0.00,
+		essential: true
+			});
+
+    });
+	
+	
+	
+	
+	
+	
+	
+	map.addControl(new mapboxgl.NavigationControl());
+	
+
+</script>
+
+</body>
+</html>
