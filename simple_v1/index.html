@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Sofia Animals</title>
+<title>Sofia Stone Animals</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
@@ -68,8 +68,13 @@
   }
 }
 
-
-
+.marker {
+	display: block;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	padding: 0;
+}
 </style>
 
 
@@ -118,7 +123,7 @@
 	'tin':[23.35473, 42.66685],
 	'mus':[23.36434, 42.66191],
 	'vl':[23.38526, 42.70049]
-	}
+	};
 	
 	function myFunction() {
 	  var x = document.getElementById("myTopnav");
@@ -203,7 +208,7 @@
 		center: [
 		23.30002, 42.71296
 		],
-		zoom: 18,
+		zoom: 19,
 		pitch: 0.00,
 		bearing: 0.00,
 		essential: true
@@ -217,7 +222,7 @@
 		center: [
 		23.30547, 42.67233
 		],
-		zoom: 18,
+		zoom: 19,
 		pitch: 0.00,
 		bearing: 0.00,
 		essential: true
@@ -231,7 +236,7 @@
 		center: [
 		23.30754, 42.66178
 		],
-		zoom: 18,
+		zoom: 19,
 		pitch: 0.00,
 		bearing: 0.00,
 		essential: true
@@ -283,13 +288,165 @@
 	
 	
 	
-	
-	
+	var geojson = {
+		'type': 'FeatureCollection',
+		'features': [
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%ba%d0%bd%d1%8f%d0%b6%d0%b5%d1%81%d0%ba%d0%b0-%d0%b3%d1%80%d0%b0%d0%b4%d0%b8%d0%bd%d0%b0/',
+		'iconSize': [60, 60],
+		'img': './images/kn.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.33349, 42.68995]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/2020-2-23/',
+		'iconSize': [60, 60],
+		'img': './images/zaimov.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.3432, 42.6977]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/2020-3-24/',
+		'iconSize': [60, 60],
+		'img': './images/maichin.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.3177, 42.70883]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%b6-%d0%ba-%d0%bb%d0%b5%d0%b2-%d1%82%d0%be%d0%bb%d1%81%d1%82%d0%be%d0%b9/',
+		'iconSize': [60, 60],
+		'img': './images/iskra.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.31255, 42.73025]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%b6-%d0%ba-%d1%84%d0%be%d0%bd%d0%b4%d0%be%d0%b2%d0%b8-%d0%b6%d0%b8%d0%bb%d0%b8%d1%89%d0%b0/',
+		'iconSize': [60, 60],
+		'img': './images/fondovi.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.30002, 42.7130]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/2019-3-25/',
+		'iconSize': [60, 60],
+		'img': './images/yu1.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.30549, 42.67240]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/2019-3-25/',
+		'iconSize': [60, 60],
+		'img': './images/yu2.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.30754, 42.66173]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%bf%d0%b0%d1%80%d0%ba-%d1%82%d0%b8%d0%bd%d1%82%d1%8f%d0%b2%d0%b0/',
+		'iconSize': [60, 60],
+		'img': './images/tin.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.35460, 42.66683]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%bc%d0%be%d0%b7%d0%b0%d0%b5%d1%87%d0%bd%d0%b8-%d0%b6%d0%b8%d0%b2%d0%be%d1%82%d0%bd%d0%b8-%d0%bc%d1%83%d1%81%d0%b0%d0%b3%d0%b5%d0%bd%d0%b8%d1%86%d0%b0/',
+		'iconSize': [60, 60],
+		'img': './images/mus.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.36434, 42.66191]
+		}
+		},
+		{
+		'type': 'Feature',
+		'properties': {
+		'url': 'https://www.urban-souvenir.com/%d0%b6-%d0%ba-%d0%b2%d0%b0%d1%81%d0%b8%d0%bb-%d0%bb%d0%b5%d0%b2%d1%81%d0%ba%d0%b8/',
+		'iconSize': [60, 60],
+		'img': './images/vl.jpg'
+		},
+		'geometry': {
+		'type': 'Point',
+		'coordinates': [23.38528, 42.70035]
+		}
+		}
+		]
+		
+	};
+
+	// add markers to map
+
+	geojson.features.forEach(function (marker) {
+	// create a DOM element for the marker
+		var el = document.createElement('div');
+		el.className = 'marker';
+		el.style.backgroundImage = 'url('+marker.properties.img +')';
+		el.style.width = marker.properties.iconSize[0] + 'px';
+		el.style.height = marker.properties.iconSize[1] + 'px';
+		
+		el.addEventListener('click', function () {
+		window.open(marker.properties.url);
+		});
+
+		// add marker to map
+		
+			
+		map.on('zoom', function () {
+		if (map.getZoom() > 16) {
+			new mapboxgl.Marker(el)
+			.setLngLat(marker.geometry.coordinates)
+			.addTo(map);
+		}
+		});
+
+	});	
 	
 	
 	map.addControl(new mapboxgl.NavigationControl());
 	
-
+	
+	
 </script>
 
 </body>
