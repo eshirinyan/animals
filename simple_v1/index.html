@@ -122,7 +122,7 @@
   <a id="tin" href='#'>парк "Тинтява"</a>
   <a id="mus" href='#'>ж.к. "Мусагеница"</a>
   <a id="vl" href='#'>ж.к. "Васил Левски"</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <a href="javascript:void(0);" class="icon" onclick="handleMenuBtnClick(event)">
     <i class="fa fa-bars"></i>
   </a>
 </div>
@@ -155,14 +155,25 @@
 	'vl':[23.38526, 42.70049]
 	};
 	
-	function myFunction() {
+	//after a click anywhere on the page (except for menu btn, see below), hide responsive menu
+	document.body.addEventListener('click', function () {
+		document.getElementById("myTopnav").className = "topnav"; 
+	});
+	
+	function handleMenuBtnClick(event) {
+		event.stopPropagation(); // to prevent event handler attached to body
+		toggleMenu();
+	}
+	
+	function toggleMenu() {
 	  var x = document.getElementById("myTopnav");
 	  if (x.className === "topnav") {
-		x.className += " responsive";
+			x.className += " responsive";
 	  } else {
-		x.className = "topnav";
+			x.className = "topnav";
 	  }
 	}
+
 	
 	document.getElementById('home').addEventListener('click', function () {
 
