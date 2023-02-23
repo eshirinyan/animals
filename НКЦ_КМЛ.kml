@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>НЦК_КМЛ</name>
+	<Document>
+		<name>АлНевски_11Август.kml</name>
+		<Style id="s_ylw-pushpin">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>АлНевски_11Август</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33226079104347</longitude>
+				<latitude>42.69834287355257</latitude>
+				<altitude>2.500000000858066</altitude>
+				<heading>174.4235580399955</heading>
+				<tilt>93.73591971971287</tilt>
+				<roll>1.812916168434205e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33237930263364,42.6974507876729,1209.192085974738</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>АлНевски_Московска.kml</name>
+		<StyleMap id="m_ylw-pushpin0">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin0</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl0">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin0">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>АлНевски_Московска</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.32832195416789</longitude>
+				<latitude>42.69673385056645</latitude>
+				<altitude>2.499999999098496</altitude>
+				<heading>109.5283480198442</heading>
+				<tilt>91.71903854074631</tilt>
+				<roll>1.272221872585407e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32947329410107,42.6964337236881,1212.019121284233</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>АлНевски_Оборище_запад.kml</name>
+		<Style id="s_ylw-pushpin1">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin1">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin1</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl1">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>АлНевски_Оборище_запад</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33221435545412</longitude>
+				<latitude>42.69577664846712</latitude>
+				<altitude>0</altitude>
+				<heading>108.2681728670807</heading>
+				<tilt>88.73144608099304</tilt>
+				<range>164.3488175996839</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin1</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33221435545412,42.69577664846712,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>АлНевски_ОборищеИзток.kml</name>
+		<Style id="s_ylw-pushpin2">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl2">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin2">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin2</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>АлНевски_ОборищеИзток</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33561472725398</longitude>
+				<latitude>42.69548246777072</latitude>
+				<altitude>2.499999999470965</altitude>
+				<heading>-80.46619799741289</heading>
+				<tilt>94.29383143900876</tilt>
+				<roll>-0</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33441284501119,42.69563081818301,1215.296306213589</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>АлНевски_Шишман.kml</name>
+		<StyleMap id="m_ylw-pushpin3">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin3</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl3">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin3">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>АлНевски_Шишман</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33195193655157</longitude>
+				<latitude>42.69340606760022</latitude>
+				<altitude>2.500000000273041</altitude>
+				<heading>17.10890926108616</heading>
+				<tilt>95.95759219557036</tilt>
+				<roll>-3.239394943070593e-12</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33230952841705,42.69425991663125,1215.007384437418</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ДЗИ_ЦарОсвободителЗапад.kml</name>
+		<Style id="s_ylw-pushpin_hl4">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin4">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin4</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin4">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ДЗИ_ЦарОсвободителЗапад</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.3251713159158</longitude>
+				<latitude>42.69689166874523</latitude>
+				<altitude>2.499999999819491</altitude>
+				<heading>123.7661009093129</heading>
+				<tilt>93.32976699045001</tilt>
+				<roll>-3.180554681463517e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32618559869799,42.69639326441988,1216.486695222019</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ДЗИ_ЦарОсвободителИзток.kml</name>
+		<StyleMap id="m_ylw-pushpin5">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin5</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl5</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin5">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl5">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ДЗИ_ЦарОсвободителИзток</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33033591642704</longitude>
+				<latitude>42.69481062309477</latitude>
+				<altitude>2.500000000470815</altitude>
+				<heading>-63.43796299460099</heading>
+				<tilt>96.97402635195654</tilt>
+				<roll>4.452776554048923e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32925086368068,42.6952093068455,1219.273287882781</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Камбаните_ОколовръстноНадлез.kml</name>
+		<Style id="s_ylw-pushpin_hl6">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin6">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin6</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl6</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin6">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>Камбаните_ОколовръстноНадлез</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.37537048725905</longitude>
+				<latitude>42.62376034510866</latitude>
+				<altitude>2.500000000186774</altitude>
+				<heading>155.1969690848933</heading>
+				<tilt>95.06812022164287</tilt>
+				<roll>-2.862499213317165e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.37589265698297,42.62292891788221,1294.202467312665</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>МинЗем_ХрБотевСевер.kml</name>
+		<Style id="s_ylw-pushpin7">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl7">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin7">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin7</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl7</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>МинЗем_ХрБотевСевер</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.315571027867</longitude>
+				<latitude>42.69865461952704</latitude>
+				<altitude>2.500000001140033</altitude>
+				<heading>-173.8585823353233</heading>
+				<tilt>97.09172528284969</tilt>
+				<roll>3.975693351829396e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.3154412750018,42.69776837052692,1208.638492357609</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>св_Неделя_МариаЛуиза.kml</name>
+		<StyleMap id="m_ylw-pushpin8">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin8</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl8</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin8">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl8">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>св_Неделя_МариаЛуиза</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.32374032118903</longitude>
+				<latitude>42.70432862260355</latitude>
+				<altitude>2.499999999413656</altitude>
+				<heading>-164.6150137275894</heading>
+				<tilt>92.09528125562494</tilt>
+				<roll>-4.770832022195275e-15</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32341625685723,42.70346315162407,1199</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>св_Неделя_Стамболийски.kml</name>
+		<StyleMap id="m_ylw-pushpin9">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin9</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl9</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin9">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl9">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>Св_Неделя_Стамболийски</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31556541019811</longitude>
+				<latitude>42.69769338177976</latitude>
+				<altitude>2.500000001975302</altitude>
+				<heading>102.8527331134079</heading>
+				<tilt>92.08192772959029</tilt>
+				<roll>2.544443745170813e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin9</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.31675618576983,42.69749369836184,1203.292996095004</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>Св_Неделя_Стамболийски2.kml</name>
+		<Style id="s_ylw-pushpin_hl10">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin10">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin10">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin10</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>Св_Неделя_Стамболийски2</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31492130347533</longitude>
+				<latitude>42.69773274395392</latitude>
+				<altitude>2.500000001350946</altitude>
+				<heading>101.548743569951</heading>
+				<tilt>94.1018524040996</tilt>
+				<roll>-9.54166404439055e-15</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.3161156774872,42.69755337001424,1204.918834545723</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>СвНеделя_Витошка.kml</name>
+		<StyleMap id="m_ylw-pushpin11">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin11</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl11</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl11">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin11">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>СвНеделя_Витошка</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31970709383957</longitude>
+				<latitude>42.6913003816405</latitude>
+				<altitude>2.500000000441167</altitude>
+				<heading>19.12749800863479</heading>
+				<tilt>91.85577247210813</tilt>
+				<roll>-3.117738726504612e-12</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32010732325988,42.69214858118246,1215.181529810685</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>СвНеделя_Витошка2.kml</name>
+		<Style id="s_ylw-pushpin_hl12">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin12">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin12</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl12</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin12">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>СвНеделя_Витошка2</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31910012657688</longitude>
+				<latitude>42.68931350076183</latitude>
+				<altitude>2.500000000004213</altitude>
+				<heading>21.82780921810538</heading>
+				<tilt>91.30732482511564</tilt>
+				<roll>-3.72999550268634e-12</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin12</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.31955438426287,42.69014711970226,1213.991365207796</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БАН_Оборище.kmz</name>
+		<Style id="s_ylw-pushpin_hl13">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin13">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin13">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin13</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl13</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>БАН_Оборище</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.28683118296816</longitude>
+				<latitude>42.66993836815948</latitude>
+				<altitude>0</altitude>
+				<heading>-126.9417360518132</heading>
+				<tilt>83.31628659008967</tilt>
+				<range>4820.89839512483</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin13</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33263115485568,42.69524149127482,1200.306131049907</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БАН_ЦарОсвободителЗапад.kmz</name>
+		<StyleMap id="m_ylw-pushpin14">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin14</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl14</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl14">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin14">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>БАН_ЦарОсвободителЗапад</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33052894236769</longitude>
+				<latitude>42.69473491211463</latitude>
+				<altitude>2.499999998523844</altitude>
+				<heading>122.9933278737343</heading>
+				<tilt>94.67541346745165</tilt>
+				<roll>-3.180554681463517e-15</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33155056351333,42.69424740870355,1214.993776250938</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БАН_Шишман.kmz</name>
+		<StyleMap id="m_ylw-pushpin15">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin15</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl15</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl15">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin15">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>БАН_Шишман</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33195193655123</longitude>
+				<latitude>42.69340606760024</latitude>
+				<altitude>2.499999999297308</altitude>
+				<heading>3.616436060376854</heading>
+				<tilt>95.22199445996766</tilt>
+				<roll>-1.97194390250738e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33202354878846,42.69423884505707,1213.073577007714</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БАН_ЦарОсвободителИзток.kmz</name>
+		<StyleMap id="m_ylw-pushpin16">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin16</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl16</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin16">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl16">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>БАН_ЦарОсвободителИзток</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33399373945847</longitude>
+				<latitude>42.69333595355792</latitude>
+				<altitude>2.49999999970539</altitude>
+				<heading>-54.58091480129036</heading>
+				<tilt>91.61884442624331</tilt>
+				<roll>-1.081388591697596e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin16</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33299819539931,42.6938563169911,1206.888869835062</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БаняБаши_МарияЛуиза.kmz</name>
+		<Style id="s_ylw-pushpin_hl17">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin17">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin17</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl17</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin17">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>БаняБаши_МарияЛуиза</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.32337123452264</longitude>
+				<latitude>42.70324022495899</latitude>
+				<altitude>2.500000000607218</altitude>
+				<heading>-167.1565531576461</heading>
+				<tilt>92.70519873123463</tilt>
+				<roll>-2.544443745170814e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin17</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32309983921441,42.70236543614116,1202.375032788119</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БаняБаши_МарияЛуиза2.kmz</name>
+		<Style id="s_ylw-pushpin18">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl18">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin18">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin18</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl18</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>БаняБаши_МарияЛуиза2</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.32323098229896</longitude>
+				<latitude>42.70282557423686</latitude>
+				<altitude>2.500000000045186</altitude>
+				<heading>-164.0005692131296</heading>
+				<tilt>92.61620864725809</tilt>
+				<roll>3.180554681463517e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin18</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.32289444125751,42.70196303021409,1203.416619001397</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>БаняБаши_МарияЛуизаЮг.kmz</name>
+		<StyleMap id="m_ylw-pushpin19">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin19</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl19</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin19">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl19">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>БаняБаши_МарияЛуизаЮг</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.4693363506854</longitude>
+				<latitude>42.99717265278433</latitude>
+				<altitude>0</altitude>
+				<heading>19.92624252893909</heading>
+				<tilt>89.25985376430161</tilt>
+				<range>35495.00602503183</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin19</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.321915022417,42.69820398169117,1203.34005797798</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ПаметникВЛ_ВасилЛевски.kmz</name>
+		<Style id="s_ylw-pushpin20">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl20">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin20">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin20</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>ПаметникВЛ_ВасилЛевски</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33477460646404</longitude>
+				<latitude>42.69449846481491</latitude>
+				<altitude>2.50000000047946</altitude>
+				<heading>14.08191138605802</heading>
+				<tilt>90.98610105710054</tilt>
+				<roll>-3.126485251878637e-12</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33507192017117,42.69536957886034,1209.690173508504</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ПаметникВЛ_ВасилЛевски2.kmz</name>
+		<Style id="s_ylw-pushpin_hl21">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin21">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin21</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin21">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ПаметникВЛ_ВасилЛевски2</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33424378545929</longitude>
+				<latitude>42.69305089317824</latitude>
+				<altitude>2.500000000687693</altitude>
+				<heading>15.67983086434068</heading>
+				<tilt>94.08469050269036</tilt>
+				<roll>-2.91179781087985e-12</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin21</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33457323645863,42.69391350611865,1210.958860142508</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ПаметникВЛ_ВасилЛевскиСевер.kmz</name>
+		<Style id="s_ylw-pushpin_hl22">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin22">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin22</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl22</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin22">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ПаметникВЛ_ВасилЛевскиСевер</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33462242254529</longitude>
+				<latitude>42.69891216764203</latitude>
+				<altitude>2.49999999812648</altitude>
+				<heading>174.1241881734643</heading>
+				<tilt>96.01732826846084</tilt>
+				<roll>2.544443745170813e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin22</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33474685228588,42.6980235735037,1210.795064091355</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ПаметникВЛ_Московска.kmz</name>
+		<Style id="s_ylw-pushpin23">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin23">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin23</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl23</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl23">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ПаметникВЛ_Московска</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33175822188351</longitude>
+				<latitude>42.69682512304558</latitude>
+				<altitude>2.500000001072178</altitude>
+				<heading>94.66605662319706</heading>
+				<tilt>89.82756045216611</tilt>
+				<roll>3.81666561775622e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin23</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33297633389435,42.69675204715234,1211.860863435877</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>ПаметникВЛ_ЯнкоСакъзов.kmz</name>
+		<StyleMap id="m_ylw-pushpin24">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin24</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl24</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin24">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl24">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>ПаметникВЛ_ЯнкоСакъзов</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33930533351415</longitude>
+				<latitude>42.69658140025718</latitude>
+				<altitude>2.499999998586945</altitude>
+				<heading>-86.19989237046669</heading>
+				<tilt>92.96045603294964</tilt>
+				<roll>6.361109362927034e-15</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin24</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33808748132058,42.69664084569828,1207.849593153117</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>РускиП_Македония.kmz</name>
+		<Style id="s_ylw-pushpin_hl25">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin25">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin25">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin25</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl25</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>РускиП_Македония</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31219959485245</longitude>
+				<latitude>42.69334165305271</latitude>
+				<altitude>2.500000000885986</altitude>
+				<heading>-128.5763106228863</heading>
+				<tilt>89.66864009712832</tilt>
+				<roll>1.256319099178089e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin25</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.31114224113157,42.69272177881045,1208.761006342291</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>РускиП_Скобелев.kmz</name>
+		<Style id="s_ylw-pushpin26">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin_hl26">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin26">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin26</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl26</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>РускиП_Скобелев</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.31170185716129</longitude>
+				<latitude>42.69124157602024</latitude>
+				<altitude>2.500000001969683</altitude>
+				<heading>-42.37047683202094</heading>
+				<tilt>89.76555819384834</tilt>
+				<roll>-1.272221872585407e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin26</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.31087828333415,42.69190518623446,1213.469289579509</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>РускиП_СкобелевЗапад.kmz</name>
+		<Style id="s_ylw-pushpin27">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin27">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin27</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl27</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl27">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>РускиП_СкобелевЗапад</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.30910056141586</longitude>
+				<latitude>42.69415122527551</latitude>
+				<altitude>2.500000000125747</altitude>
+				<heading>155.4136964228197</heading>
+				<tilt>93.21884036837533</tilt>
+				<roll>-5.724998426634331e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin27</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.30960823018864,42.69333571549505,1214.458724027981</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>РускиП_Тотлебен.kmz</name>
+		<Style id="s_ylw-pushpin_hl28">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin28">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin28">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin28</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl28</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>РускиП_Тотлебен</name>
+			<LookAt>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.66414732315289</longitude>
+				<latitude>42.86702968478086</latitude>
+				<altitude>0</altitude>
+				<heading>56.16153741434452</heading>
+				<tilt>89.22626263718469</tilt>
+				<range>35014.94420735141</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin28</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.30976792338075,42.691857896746,1212.356172721933</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>СУ_ВасилЛевскиСевер.kmz</name>
+		<Style id="s_ylw-pushpin29">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin29">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin29</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl29</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin_hl29">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>СУ_ВасилЛевскиСевер</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33510030211976</longitude>
+				<latitude>42.69638928658982</latitude>
+				<altitude>2.500000002432655</altitude>
+				<heading>-175.2941201451719</heading>
+				<tilt>94.84557800556622</tilt>
+				<roll>7.474303501439263e-14</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin29</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33500039492471,42.695497278388,1215.950856587416</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>СУ_ВасилЛевскиЮг.kmz</name>
+		<Style id="s_ylw-pushpin_hl30">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin30">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin30</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="s_ylw-pushpin30">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>СУ_ВасилЛевскиЮг</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33277211859795</longitude>
+				<latitude>42.69121662245996</latitude>
+				<altitude>2.499999999389798</altitude>
+				<heading>41.24332358951958</heading>
+				<tilt>92.21537696182638</tilt>
+				<roll>8.802185080950283e-13</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin30</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33357717863589,42.69189151431159,1203.991985301704</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	<Document>
+		<name>СУ_ЦарОсвободител.kmz</name>
+		<Style id="s_ylw-pushpin_hl31">
+			<IconStyle>
+				<scale>1.3</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<Style id="s_ylw-pushpin31">
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				</Icon>
+				<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+		</Style>
+		<StyleMap id="m_ylw-pushpin31">
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#s_ylw-pushpin31</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#s_ylw-pushpin_hl31</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Placemark>
+			<name>СУ_ЦарОсвободител</name>
+			<Camera>
+				<gx:ViewerOptions>
+					<gx:option enabled="0" name="historicalimagery"></gx:option>
+					<gx:option enabled="0" name="sunlight"></gx:option>
+					<gx:option name="streetview"></gx:option>
+				</gx:ViewerOptions>
+				<longitude>23.33000981931404</longitude>
+				<latitude>42.69494101520614</latitude>
+				<altitude>2.50000000041947</altitude>
+				<heading>122.6581041164276</heading>
+				<tilt>92.69882176962044</tilt>
+				<roll>3.180554681463517e-15</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin31</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>23.33103758992806,42.69445683782105,1213.042528226574</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</Folder>
+</kml>
