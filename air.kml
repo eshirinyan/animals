@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="air" id="air">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="№" type="string"></SimpleField>
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+	<SimpleField name="Начин на монтаж" type="string"></SimpleField>
+	<SimpleField name="Начин на захранване на сензора" type="string"></SimpleField>
+	<SimpleField name="№ на стълб" type="string"></SimpleField>
+</Schema>
+<Folder><name>air</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">1</SimpleData>
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="№">A1</SimpleData>
+		<SimpleData name="Latitude">42.682955</SimpleData>
+		<SimpleData name="Longitude">23.321371</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 90мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.321371,42.682955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">2</SimpleData>
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="№">A2</SimpleData>
+		<SimpleData name="Latitude">42.679057</SimpleData>
+		<SimpleData name="Longitude">23.327507</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 110мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">111688</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.327507,42.679057</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">3</SimpleData>
+		<SimpleData name="fid">3</SimpleData>
+		<SimpleData name="№">A3</SimpleData>
+		<SimpleData name="Latitude">42.677792</SimpleData>
+		<SimpleData name="Longitude">23.336003</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 130/80мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">111826</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.336003,42.677792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">4</SimpleData>
+		<SimpleData name="fid">4</SimpleData>
+		<SimpleData name="№">A4</SimpleData>
+		<SimpleData name="Latitude">42.676455</SimpleData>
+		<SimpleData name="Longitude">23.320397</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 130/110мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.320397,42.676455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">5</SimpleData>
+		<SimpleData name="fid">5</SimpleData>
+		<SimpleData name="№">A5</SimpleData>
+		<SimpleData name="Latitude">42.650112</SimpleData>
+		<SimpleData name="Longitude">23.319668</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 130/80мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">112337</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.3196443122052,42.6500880873505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="fid">6</SimpleData>
+		<SimpleData name="№">A6</SimpleData>
+		<SimpleData name="Latitude">42.66568</SimpleData>
+		<SimpleData name="Longitude">23.317746</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 270мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.317746,42.66568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">7</SimpleData>
+		<SimpleData name="fid">7</SimpleData>
+		<SimpleData name="№">A7</SimpleData>
+		<SimpleData name="Latitude">42.650293</SimpleData>
+		<SimpleData name="Longitude">23.332304</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на бетонен стълб ф= 330мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">112505</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.332304,42.650293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">8</SimpleData>
+		<SimpleData name="fid">8</SimpleData>
+		<SimpleData name="№">A8</SimpleData>
+		<SimpleData name="Latitude">42.659191</SimpleData>
+		<SimpleData name="Longitude">23.332316</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира на покрива на Ветеринарна клиника Зоопарк
+София</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от сградата ще се вземе захранване AC220V и ще се
+монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.332316,42.659191</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">9</SimpleData>
+		<SimpleData name="fid">9</SimpleData>
+		<SimpleData name="№">A9</SimpleData>
+		<SimpleData name="Latitude">42.641728</SimpleData>
+		<SimpleData name="Longitude">23.313091</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 130/80мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">112465</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.313091,42.641728</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">10</SimpleData>
+		<SimpleData name="fid">10</SimpleData>
+		<SimpleData name="№">A10</SimpleData>
+		<SimpleData name="Latitude">42.674009</SimpleData>
+		<SimpleData name="Longitude">23.330876</SimpleData>
+		<SimpleData name="Начин на монтаж">в момента е в строеж, ще се монтира на сградата</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от сградата ще се вземе захранване AC220V и ще се
+монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.330876,42.674009</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">11</SimpleData>
+		<SimpleData name="fid">11</SimpleData>
+		<SimpleData name="№">A11</SimpleData>
+		<SimpleData name="Latitude">42.658948</SimpleData>
+		<SimpleData name="Longitude">23.316558</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 170мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.316558,42.658948</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#air">
+		<SimpleData name="id">12</SimpleData>
+		<SimpleData name="fid">12</SimpleData>
+		<SimpleData name="№">A12</SimpleData>
+		<SimpleData name="Latitude">42.664536</SimpleData>
+		<SimpleData name="Longitude">23.325833</SimpleData>
+		<SimpleData name="Начин на монтаж">ще се монтира чрез скоба на метален стълб Ф= 130/110мм</SimpleData>
+		<SimpleData name="Начин на захранване на сензора">от стълба на улично осветление ще се захрани с AC220V, и ще се монтира соларен панел</SimpleData>
+		<SimpleData name="№ на стълб">няма</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>23.325833,42.664536</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
